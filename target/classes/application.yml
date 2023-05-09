@@ -1,0 +1,7 @@
+async:
+  executor:
+    thread:
+      corePoolSize: 5
+      maxPoolSize: 10
+      queueCapacity: 1
+      namePrefix: async-
